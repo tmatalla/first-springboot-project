@@ -7,8 +7,9 @@ import org.springframework.stereotype.Component;
 public class WelcomeService{
 	//clase business logic
 	@Value("${welcome.message}")
-	private String wellcomeMesagge;
+	private String wellcomeMesagge;  
 
+	//hola
 	public String retrieveWelcome() {
 //		return "good morning new!";
 		return wellcomeMesagge;
